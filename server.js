@@ -4,7 +4,6 @@ const bodyParser = require('body-parser');
 const connectDB = require('./srcnode/db/db');
 const appModalRoutes = require('./srcnode/router/router');
 const app = express();
-
 app.use(cors());
 app.use(bodyParser.json());
 
